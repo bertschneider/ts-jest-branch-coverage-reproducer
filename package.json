@@ -1,0 +1,18 @@
+{
+  "name": "js-ts-coverage",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc",
+    "test:js": "jest --config jest-config-js.js",
+    "coverage:js": "jest --coverage --config jest-config-js.js",
+    "test:ts": "jest --config jest-config-ts.ts",
+    "coverage:ts": "jest --coverage --config jest-config-ts.ts"
+  },
+  "devDependencies": {
+    "@types/jest": "29.5.5",
+    "jest": "29.7.0",
+    "ts-jest": "29.1.1",
+    "ts-node": "10.9.1",
+    "typescript": "5.2.2"
+  }
+}
